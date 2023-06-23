@@ -1,15 +1,12 @@
 #include "main.h"
 
 /**
- * _isdigit - checks for a digit (0 through 9)
- * @c: The character to be checked
- *
- * Return: 0 if otherwise or 1 if c is a digit
+ * mul - multiply 2 int
+ * @x: first int
+ * @y: second int
+ * Return: addition of the multiplicattion
  */
-int _isdigit(int c)
+int mul(int x, int y)
 {
-if (c >= '0' && c <= '9')
-return (1);
-else
-return (0);
+return (x * y);
 }
