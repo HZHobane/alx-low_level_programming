@@ -20,7 +20,7 @@ length++;
 while (a < length && c == 0)
 {
 if (s[a] == '-')
-++d;
+++b;
 if (s[a] >= '0' && s[a] <= '9')
 {
 numbr = s[a] - '0';
