@@ -5,7 +5,7 @@
  *@src: Copied nmemory
  *@n: Amount of bytes
  *
- *Return: changed copied memory 
+ *Return: changed copied memory
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
